@@ -1,11 +1,11 @@
 name = "flaresite"
 type = "webpack"
-account_id = "d9c4a171c4a0d0a8e6f8204ae9ba0638"
+account_id = "1c5f0bb50c92188dd028fa501cb54b88"
 workers_dev = true
 webpack_config = "node_modules/flareact/webpack"
-kv_namespaces = [
-         { binding = "KV_STATUS_PAGE", id = "d83f01839ad74eef90216151b3625316" }
-]
+# kv_namespaces = [
+#         { binding = "KV_STATUS_PAGE", id = "d83f01839ad74eef90216151b3625316" }
+# ]
 
 [site]
 bucket = "out"
